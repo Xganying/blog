@@ -1,0 +1,85 @@
+.clr{
+	clear:both;
+	width:0px;
+	height:0px;
+}
+#container{
+    	width: 1002px;
+    }
+	#header{
+		background: url(../images/toppicture.PNG); 
+		background-repeat:no-repeat;
+		height:105px;
+		width:1000px;
+		background-size: 1002px;
+	}
+	ul li {
+	 list-style-type:none; 
+	}   
+	#nav li{
+		background-color: gray;
+		float:left;
+        width:90px;
+        margin-right:1px;
+        margin-top: 1px;
+	}
+	#nav a{
+		font-size:15px;
+		font-family:"微软雅黑";
+		color:#3636;
+		width:91px;
+		height:37px;
+		display:block;
+		text-align:center;
+		text-decoration: none;
+	}
+	#nav a:hover{
+		color: blue;
+		background: url(../images/navbackground.PNG);
+		background-repeat:no-repeat;
+	}
+
+	#main{
+
+	}
+	#lside{
+		height:600px;
+		width:694px;
+		border:1px solid gray;
+		background: blue;
+		float:left;
+	}
+	.subtitle{
+		height:35px;
+		background:purple;
+	}
+	.subtitle img{
+		float:left;
+	} 
+	.subtitle h2{
+		float:left;
+		top:0px;
+		background: gray;
+	}
+	.subtitle a{
+		float:right;
+        background: yellow;
+	}
+	.four{
+		height:270px;
+		width:333px;
+		background-color:gray;
+		margin:6px;
+		float:left;
+		left:10px;
+	}
+	#rside{
+		height: 600px;
+		width:294px;
+		float:right;
+		background: green;
+	}
+	#footer{
+		height:50px;
+		background:black;
+	}
